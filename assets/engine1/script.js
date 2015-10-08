@@ -74,7 +74,7 @@ function ws_blur(r, p, c) {
             }
             d.css(x).attr({
                 width: x.width,
-                height:100vh /*x.height*/
+                height: x.height /*100vh*/
             });
             v = g(w, x, 30, d.get(0))
         }
@@ -331,7 +331,7 @@ jQuery("#wowslider-container1").wowSlider({
     duration: 20 * 100,
     delay: 20 * 100,
     width: 2000,
-    height: 768,
+    height: 100vh,
     autoPlay: true,
     autoPlayVideo: false,
     playPause: true,
