@@ -1,6 +1,7 @@
-@web-color: #F0605B;
+@basecolor: #5b96f0;
+@sectionbgcolor: #F1F1F1;
 .bg-color {
-    background-color: @web-color;
+    background-color: @basecolor;
     opacity: 0.9;
 }
 
@@ -11,6 +12,33 @@
     opacity: 0.5;
 }
 
-.para img{
+.para img {
     background-attachment: fixed !important;
+}
+
+.gal img {
+    width: 100% !important;
+}
+
+.isize i {
+    font-size: x-large !important;
+}
+
+.mapsize {
+    height: 100% !important;
+    border: 0 !important;
+    width: 100% !important;
+}
+
+.sectionbg {
+    background-color: @sectionbgcolor;
+}
+
+@media (max-width: 768px) {
+    .nav-new a {
+        /*margin-top: -18% !important;*/
+    }
+    .galimg {
+        width: 50% !important;
+    }
 }

@@ -20,11 +20,13 @@
     <!-- ///  all plugins  /// -->
     <link href="assets/css/plugins/plugins.css" rel="stylesheet">
     <!-- ///  main css  /// -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <!--<link href="assets/css/main.css" rel="stylesheet">-->
     <!-- ///  custom css  /// -->
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <!--<link href="assets/css/styles.css" rel="stylesheet">-->
     <!-- ///  custom less  /// -->
     <link href="assets/less/custom.css" rel="stylesheet">
+    <!-- ///  main less  /// -->
+    <link href="assets/less/main.css" rel="stylesheet">
     <!-- ///  custom css  /// -->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <!-- ///  responsive css  /// -->
@@ -42,7 +44,7 @@
     </div>-->
     <header class="main-header">
         <div class="container">
-            <div class="row">
+            <div class="row" id="cssmenu">
                 <nav class="navbar navbar-default nav-new" role="navigation">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -52,7 +54,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><i class="icon_heart_alt"></i> Young Birds Studio</a>
+                        <a class="navbar-brand" href="index.html">Young Birds Studio</a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -99,7 +101,7 @@
         </div>
     </section>
     <!--about-->
-    <section class="pricing section" id="about">
+    <section class="pricing section sectionbg" id="about">
         <div class="container">
             <div class="heading-section wow bounceIn" data-wow-duration="1.6s">
                 <h1>About us</h1>
@@ -173,7 +175,7 @@
     </section>
 
     <!-- ///  team  /// -->
-    <section class="team section" id="team">
+    <section class="team section sectionbg" id="team">
         <div class="container">
             <div class="heading-section wow bounceIn" data-wow-duration="1.6s">
                 <h1>Team</h1>
@@ -307,7 +309,7 @@
 
 
     <!-- ///  contacts  /// -->
-    <section class="contacts section" id="contact">
+    <section class="contacts section sectionbg" id="contact">
         <div class="container">
             <div class="heading-section wow bounceIn" data-wow-duration="1.6s">
                 <h1>Contact Us</h1>
@@ -358,8 +360,8 @@
     </section>
 
     <!-- ///  map  /// -->
-    <section class="map">
-        <div class="bg-color map-layer">
+    <section class="map" id="map1">
+        <div id="bg-color" class="bg-color map-layer">
         </div>
         <iframe class="mapsize" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15083.056055188335!2d72.89300584521487!3d19.074110509017757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle+map+in+html!5e0!3m2!1sen!2sin!4v1444221215313" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -401,9 +403,17 @@
     <script src="assets/js/plugins/validator/jquery.form-validator.min.js"></script>
     <script src="assets/js/plugins/wow/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/ga.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/behaviour.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="assets/engine1/wowslider.js"></script>
     <script type="text/javascript" src="assets/engine1/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#bg-color').height($('#map1').height())
+        });
+    </script>
 </body>
 
 </html>
