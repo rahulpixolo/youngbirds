@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <title>Young Birds Studio</title>
-    <meta name="description" content="">
+    <meta name="description" content="Sense gelevanog">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- ///  google font - Open Sans  /// -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
@@ -18,27 +18,25 @@
     <!-- ///  bootsrap css - framework  /// -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- ///  all plugins  /// -->
-    <!--<link href="assets/css/plugins/plugins.css" rel="stylesheet">-->
+    <link href="assets/css/plugins/plugins.css" rel="stylesheet">
+    <!-- ///  main css  /// -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- ///  main css  /// -->
     <link href="assets/less/custom.css" rel="stylesheet">
-    <!-- ///  main less  /// -->
+    <!-- ///  main css  /// -->
     <link href="assets/less/main.css" rel="stylesheet">
     <!-- ///  responsive css  /// -->
     <link href="assets/css/responsive.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/engine1/style.css" />
-    <script type="text/javascript" src="assets/engine1/jquery.js"></script>
 </head>
 
 <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <!--<div class="preloader">
-        <img src="assets/img/Preloader_8.gif" alt="">
-    </div>-->
     <header class="main-header">
         <div class="container">
-            <div class="row" id="cssmenu">
-                <nav class="navbar navbar-default nav-new" role="navigation">
+            <div class="row">
+                <nav class="navbar navbar-default" role="navigation">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -57,7 +55,7 @@
                             <li><a href="#product">Product</a></li>
                             <li><a href="#team">Team</a></li>
                             <li><a href="#gallery">Gallery</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -67,32 +65,18 @@
     </header>
 
     <!-- ///  start promo  /// -->
-    <!--<section class="promo static" style="background-image: url(assets/img/main-bg.jpg)" id="home">
-            </section>-->
-    <section class="" id="home">
-        <div style="height:100vh; width:100%">
-            <div id="wowslider-container1" style="position: fixed;z-index: -1; height:100vh !important">
-                <div class="ws_images">
-                    <ul>
-                        <li><img src="assets/img/portfolio/p2.jpg" alt="p2" title="" id="wows1_0"/></li>
-                        <li>
-                            <img src="assets/img/portfolio/p3.jpg" id="wows1_1" />
-                        </li>
-                        <li><img src="assets/img/portfolio/p5.jpg" alt="p5" title="" id="wows1_2" /></li>
-                    </ul>
-                </div>
-                <div class="ws_bullets">
-                    <div>
-                        <a href="#" title=""><span><img src="assets/img/portfolio/p2.jpg" alt="p2" />1</span></a>
-                        <a href="#" title=""><span><img src="assets/img/portfolio/p3.jpg" alt="p3" />2</span></a>
-                        <a href="#" title=""><span><img src="assets/img/portfolio/p5.jpg" alt="p5" />3</span></a>
-                    </div>
-                </div>
-
-                <div class="ws_shadow"></div>
+    <section class="promo static" style="background-image: url(assets/img/main-bg.jpg)" id="home">
+        <div class="promo-block wow bounceIn" data-wow-duration="2s">
+            <h1 class="lead">the best way <br>to launch your project</h1>
+            <div class="buttons">
+                <ul class="list-inline">
+                    <li><a href="" class="btn btn-primary btn-lg">Sexy Button</a></li>
+                    <li><a href="" class="btn btn-white btn-lg">Clean Button</a></li>
+                </ul>
             </div>
         </div>
     </section>
+
     <!--about-->
     <section class="pricing section sectionbg" id="about">
         <div class="container">
@@ -168,106 +152,57 @@
     </section>
 
     <!-- ///  team  /// -->
-    <section class="team section sectionbg" id="team">
+    <section class="team section" id="team">
         <div class="container">
             <div class="heading-section wow bounceIn" data-wow-duration="1.6s">
                 <h1>Team</h1>
                 <div class="separator"></div>
             </div>
             <div class="row">
-                <div class="col-md-5 col-xs-6">
+                <div class="col-md-8 col-md-offset-2 wow bounceIn" data-wow-duration="1.6s">
+                    <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
                     <div class="person wow slideInRight" data-wow-duration="1s">
                         <img src="assets/img/persons/p1.jpg" alt="" class="img-rounded">
-                        <h4>Megha Shrivastava Khare<span>- Founder</span></h4>
-                        <ul class="list-inline isize">
-                            
-                            <li><a href="" class="btn btn-primary"><i class="fa fa-twitter-square"></i></a></li>
-                            <li><a href="" class="btn btn-primary"><i class="fa fa-angellist"></i></a></li>
-                            <li><a href="" class="btn btn-primary"><i class="fa fa-linkedin-square"></i></a></li>
+                        <h4>Little Lora <span>- Manager</span></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <ul class="list-inline">
+                            <li><a href="" class="btn btn-block btn-gray"><i class="fa fa-skype"></i></a></li>
+                            <li><a href="" class="btn btn-block btn-gray"><i class="fa fa-angellist"></i></a></li>
+                            <li><a href="" class="btn btn-block btn-gray"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-7 col-xs-6 wow bounceIn" data-wow-duration="1.6s">
-                    <p class="sub-heading">Hello Visitor,
-                        <br>
-                        <br> I am the founder and owner of this website, Megha Khare. I welcome you all to a unique world that I created for kids – Gilly's World.
-                        <br> I live in Mumbai with my husband and my three year old son. Since my childhood, I had this unexplored inclination towards art, craft, music and literature. In school and college, I was always involved in activities like drama, dance, music, painting, craft, reading, speeches and have won many prizes and awards.
-                        <br> I have varied educational and work experience. I worked as a Kindergarden Teacher and have gained experience in teaching area. In 2007, I opened my own kids activity center in Powaii, which was much appreciate by working as well as at-home parents. Kids Activity classes was an interesting way of learning for kids in a home like environment. I use to teach kids various activities based on Phonics, Sight words, Observation & Recognition, Vocabulary, Reading, Writing, Drawing, Speaking, Singing, Dancing, Matching, Sorting, and Kids & Yoga, in short engaging kids in educational and innovative activities that challenges them to explore their creative side.
-                        <br> I also work as a philanthropist and manage an NGO based in Bhopal – Madhya Pradesh. Primiary focus of our NGO is to provide basic education and support to girl child in chattisgrah area.
-                        <br> I love kids and have deep interest in Graphic and Animation. I always knew, I will end up doing something, which involves children and animation and thats how I came up with idea about YOUNG BIRDS and GILLY'S WORLD.
-                        <br> Being a Mom, I totally understand the importance of early learning and right nurturing. I strongly believe that every kid is born with talent and creativity, as a teacher and parent we need to nurture it with special care, love and most importantly with patience. If we set our kids in the right direction, give them the right tools and support them identifying their liking and passion they will grow up to be happy, contented and successful in whatever they choose to do in their life.
-                        <br> Thank you for visiting Young Birds and Gilly's World site. We hope you enjoy your time here and will visit us often. We are open to ideas and your feedback on how was your experience. So if you have any suggestions then please Contact Us.
-                        <br> Thanks Again and Happy Learning!</p>
-
+                <div class="col-md-4">
+                    <div class="person wow slideInRight" data-wow-duration="1.2s">
+                        <h2>Who we are</h2>
+                        <p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam. Eumenis et consent accullignis dentibea autem inisita posae volor conecus resto explabo.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="person wow slideInRight" data-wow-duration="1.4s">
+                        <h2>Who we are</h2>
+                        <p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam. Eumenis et consent accullignis dentibea autem inisita posae volor conecus resto explabo.</p>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
 
+    <!-- ///  gallery  /// -->
 
-    <!-- ///  Gallery  /// -->
+    <!-- ///  work  /// -->
     <section class="work section fill" id="gallery">
         <div class="container">
             <div class="heading-section wow bounceIn" data-wow-duration="1.6s">
-                <h1>gallery</h1>
+                <h1>Gallery</h1>
                 <div class="separator"></div>
             </div>
-            <div class="row portfolio-list clearfix " id="portfolioList">
-                <div class="p-item galimg p-photo col-md-4 col-xs-6">
-                    <div class="work-item">
-                        <a href="assets/img/portfolio/p6.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
-                            <div class="overlay">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                            <img src="assets/img/portfolio/p6.jpg" alt="//" class="img-responsive">
-                        </a>
-                        <div class="description">
-                            <p>Sexy description
-                                <!--and <a href="#">sexy link</a>--></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-item  galimg p-photo col-md-4 col-xs-6">
-                    <div class="work-item">
-                        <a href="assets/img/portfolio/p5.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
-                            <div class="overlay">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                            <img src="assets/img/portfolio/p5.jpg" alt="//" class="img-responsive">
-                        </a>
-                        <div class="description">
-                            <p>Sexy description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-item  galimg p-photo col-md-4 col-xs-6">
-                    <div class="work-item">
-                        <a href="assets/img/portfolio/p4.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
-                            <div class="overlay">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                            <img src="assets/img/portfolio/p4.jpg" alt="//" class="img-responsive">
-                        </a>
-                        <div class="description">
-                            <p>Sexy description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-item galimg p-photo col-md-4 col-xs-6">
-                    <div class="work-item">
-                        <a href="assets/img/portfolio/p2.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
-                            <div class="overlay">
-                                <i class="fa fa-search-plus"></i>
-                            </div>
-                            <img src="assets/img/portfolio/p2.jpg" alt="//" class="img-responsive">
-                        </a>
-                        <div class="description">
-                            <p>Sexy description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-item galimg p-photo col-md-4 col-xs-6">
+            <div class="portfolio-list clearfix" id="portfolioList">
+                <div class="p-item p-photo">
                     <div class="work-item">
                         <a href="assets/img/portfolio/p1.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
                             <div class="overlay">
@@ -276,30 +211,78 @@
                             <img src="assets/img/portfolio/p1.jpg" alt="//" class="img-responsive">
                         </a>
                         <div class="description">
-                            <p>Sexy description</p>
+                            <p>Sexy description and <a href="#">sexy link</a></p>
                         </div>
                     </div>
                 </div>
-                <div class="p-item galimg p-photo col-md-4 col-xs-6">
+                <div class="p-item p-video">
+                    <div class="work-item">
+                        <a href="assets/img/portfolio/p2.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
+                            <div class="overlay">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                            <img src="assets/img/portfolio/p2.jpg" alt="//" class="img-responsive">
+                        </a>
+                        <div class="description">
+                            <p>Sexy description and <a href="#">sexy link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-item p-photo">
                     <div class="work-item">
                         <a href="assets/img/portfolio/p3.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
-
                             <div class="overlay">
                                 <i class="fa fa-search-plus"></i>
                             </div>
                             <img src="assets/img/portfolio/p3.jpg" alt="//" class="img-responsive">
                         </a>
                         <div class="description">
-                            <p>Sexy description</p>
+                            <p>Sexy description and <a href="#">sexy link</a></p>
                         </div>
                     </div>
                 </div>
-
+                <div class="p-item p-video">
+                    <div class="work-item">
+                        <a href="assets/img/portfolio/p4.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
+                            <div class="overlay">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                            <img src="assets/img/portfolio/p4.jpg" alt="//" class="img-responsive">
+                        </a>
+                        <div class="description">
+                            <p>Sexy description and <a href="#">sexy link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-item p-photo">
+                    <div class="work-item">
+                        <a href="assets/img/portfolio/p5.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
+                            <div class="overlay">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                            <img src="assets/img/portfolio/p5.jpg" alt="//" class="img-responsive">
+                        </a>
+                        <div class="description">
+                            <p>Sexy description and <a href="#">sexy link</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-item p-video">
+                    <div class="work-item">
+                        <a href="assets/img/portfolio/p6.jpg" data-lightbox="roadtrip" data-title="Sexy description" class="img-wrapper">
+                            <div class="overlay">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                            <img src="assets/img/portfolio/p6.jpg" alt="//" class="img-responsive">
+                        </a>
+                        <div class="description">
+                            <p>Sexy description and <a href="#">sexy link</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
-
 
     <!-- ///  contacts  /// -->
     <section class="contacts section sectionbg" id="contact">
@@ -357,9 +340,7 @@
         <div id="bg-color" class="bg-color map-layer">
         </div>
         <iframe class="mapsize" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15083.056055188335!2d72.89300584521487!3d19.074110509017757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle+map+in+html!5e0!3m2!1sen!2sin!4v1444221215313" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
     </section>
-
     <!-- ///  footer  /// -->
     <footer class="main-footer">
         <div class="container">
@@ -369,11 +350,14 @@
                         <li><a href="" class="btn btn-primary"><i class="fa fa-facebook-square"></i></a></li>
                         <li><a href="" class="btn btn-primary"><i class="fa fa-twitter-square"></i></a></li>
                         <li><a href="" class="btn btn-primary"><i class="fa fa-google-plus-square"></i></a></li>
-                                            </ul>
+                    </ul>
                 </div>
                 <div class="col-md-8">
                     <div class="copy">
-                        <p>&copy; All rights reserved <a href="https://www.pixolo.co.in/" target="_blank">Pixolo Productions</a></p>
+
+                        <div class="copy">
+                            <p>&copy; All rights reserved <a href="https://www.pixolo.co.in/" target="_blank">Pixolo Productions</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -395,15 +379,9 @@
     <script src="assets/js/plugins/validator/jquery.form-validator.min.js"></script>
     <script src="assets/js/plugins/wow/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/ga.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/behaviour.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="assets/engine1/wowslider.js"></script>
-    <script type="text/javascript" src="assets/engine1/script.js"></script>
     <script>
         $(document).ready(function () {
-            $('#bg-color').height($('#map1').height())
+            $('#bg-color').height($('#map1').height());
         });
     </script>
 </body>

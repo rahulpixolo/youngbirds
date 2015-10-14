@@ -331,7 +331,7 @@ jQuery("#wowslider-container1").wowSlider({
     duration: 20 * 100,
     delay: 20 * 100,
     width: 2000,
-    height: 100vh,
+    height: 360,
     autoPlay: true,
     autoPlayVideo: false,
     playPause: true,
