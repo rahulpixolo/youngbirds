@@ -9,6 +9,9 @@
   height: 60%;
   opacity: 0.5;
 }
+.bgimg {
+  background-image: url(assets/img/main-bg.png);
+}
 .para img {
   background-attachment: fixed !important;
 }
