@@ -2141,3 +2141,14 @@ a.list-group-item-danger.active:focus {
 .c-soon .help-block {
   color: #f00;
 }
+
+.preview {
+  bottom: 0;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+}
