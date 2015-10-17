@@ -1996,6 +1996,13 @@ a.list-group-item-danger.active:focus {
 .main-footer .copy p {
   margin: 0;
 }
+.newsbox {
+  background-color: rgba(211, 211, 211, 0.24);
+  width: 90%;
+  border-radius: 4px;
+  padding: 25px;
+  margin: 25px;
+}
 /************************************************
 *** Blog ***
 ************************************************/
