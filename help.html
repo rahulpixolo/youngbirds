@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Young Birds Studio</title>
+    <meta name="description" content="Sense gelevanog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ///  google font - Open Sans  /// -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <!-- ///  font awesome - iconic font  /// -->
+    <link href="assets/fonts/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- ///  eleagant font - iconic font  /// -->
+    <link href="assets/fonts/elegant-font/style.css" rel="stylesheet">
+    <!-- ///  bootsrap css - framework  /// -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ///  all plugins  /// -->
+    <link href="assets/css/plugins/plugins.css" rel="stylesheet">
+    <!-- ///  main css  /// -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- ///  main css  /// -->
+    <link href="assets/less/custom.css" rel="stylesheet">
+    <!-- ///  main css  /// -->
+    <link href="assets/less/main.css" rel="stylesheet">
+    <!-- ///  main css  /// -->
+    <link href="assets/less/ekko.css" rel="stylesheet">
+    <!-- ///  responsive css  /// -->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header class="main-header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-default" role="navigation">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="index.html" target="_blank">Young Birds Studio</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right" id="nav">
+                            <li class=""><a href="index.html" target="_blank">HOME</a>
+                            </li>
+                            <li><a href="index.html" target="_blank">ABOUT US</a>
+                            </li>
+                            <li><a href="index.html" target="_blank">PRODUCTS</a>
+                            </li>
+                            <li><a href="index.html" target="_blank">NEWS</a>
+                            </li>
+                            <li><a href="index.html" target="_blank">TEAM</a>
+                            </li>
+                            <li><a href="index.html" target="_blank">GALLERY</a>
+                            </li>
+                            <li><a href="index.html" target="_blank">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ///  contacts  /// -->
+    <section class="contacts helpsec fill sectionbg" id="contact">
+        <div class="container">
+            <div class="heading-section wow bounceIn" data-wow-duration="1.6s">
+                <h1>HELP</h1>
+                <div class="separator"></div>
+            </div>
+            <div class="row wow flipInY" data-wow-duration="1.4s">
+                <div class="col-sm-12">
+                    <div class="alert alert-success alert-dismissable" style="display:none" id="contactUsAlert">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        Thank you. Your message has been sent!
+                    </div>
+                </div>
+                <form class="col-sm-8" role="form" id="helpForm" action="help.php">
+                    <div class="row">
+                        <div class="col-sm-offset-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="SUBJECT" data-validation="required" id="userSubj" name="subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="MESSAGE" data-validation="required" name="message" id="message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-block" id="contactbutton">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ///  footer  /// -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 social">
+                    <ul class="list-inline">
+                        <li><a href="" class="btn btn-primary"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li><a href="" class="btn btn-primary"><i class="fa fa-twitter-square"></i></a>
+                        </li>
+                        <li><a href="" class="btn btn-primary"><i class="fa fa-google-plus-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <div class="copy">
+
+                        <div class="copy">
+                            <p>&copy; All rights reserved <a href="https://www.pixolo.co.in/" target="_blank">Pixolo Productions</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ///  start scripts  /// -->
+    <script src="assets/js/libs/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/plugins/nav/jquery.nav.js"></script>
+    <script src="assets/js/plugins/validator/jquery.form-validator.min.js"></script>
+    <script src="assets/js/mail.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#bg-color').height($('#map1').height());
+            $('#nav li').click(function () {
+                $('#navbar-collapse').collapse('hide');
+            });
+        });
+    </script>
+</body>
+
+</html>
