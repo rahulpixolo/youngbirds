@@ -2131,19 +2131,15 @@ a.list-group-item-danger.active:focus {
   padding: 10px 15px;
   border-radius: 4px;
 }
-/************************************************
-*** Comming Soon ***
-************************************************/
-.countdown .item {
-  text-align: center;
-  margin-bottom: 20px;
+@media screen and (min-width: 0px) {
+  .bgimage {
+    background-image: url(../img/youngbirds_mobile_slider.png);
+    background-size: 100%;
+  }
 }
-.countdown .digit {
-  font-size: 48px;
-}
-.contact-us {
-  margin-top: 20px;
-}
-.c-soon .help-block {
-  color: #f00;
+@media screen and (min-width: 480px) {
+  .bgimage {
+    background-image: url(../img/main-bg.png);
+    background-size: 100%;
+  }
 }
