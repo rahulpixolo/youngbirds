@@ -2143,3 +2143,6 @@ a.list-group-item-danger.active:focus {
     background-size: 100%;
   }
 }
+.linespace {
+  line-height: 150%;
+}
