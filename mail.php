@@ -11,7 +11,7 @@
     $message = $_POST['message'];
 
     $email_from = $email;
-    $email_to = 'rahul.pixolo@gmail.com';//replace with your email
+    $email_to = 'abhay.pixolo@gmail.com';//replace with your email
 
     $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'subject: ' . $subject . "\n\n" . 'Message: ' . $message;
 
